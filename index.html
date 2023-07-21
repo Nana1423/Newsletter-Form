@@ -15,24 +15,38 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="main_container" class="container d-flex align-items-center justify-content-center vh-100">
-        <div id="sub_container" class="d-flex text-justify">
-            <div id="text_container" class="d-flex flex-column align-items-center justify-content-center">
+<!-- Imagen de Mobile -->
+<img id="ilustration_mobile" class="d-flex flex-column" src="images/illustration-sign-up-mobile.svg" alt="Ilustration Mobile">
+    <!-- Container Principal -->
+    <div id="main_container" class="container d-flex align-items-center justify-content-center">
+        <!-- Sub Container  -->
+        <div id="sub_container" class="d-flex text-justify container_success">
+            <img id="icon_success" src="images/icon-success.svg" alt="Icon Success">
+            <h1 class="h1_success">Thanks for Subscribing!</h1>
+            <p class="text">A confirmation email has been sent to [EMAIL ENTERED]. Please open it and click the button inside to confirm your subscription.</p>
+            <button class="btn_subscribe btn btn-primary btn-block">Dismiss mesage</button>
+
+
+            <!-- <div id="text_container" class="d-flex flex-column">
                 <h1>Stay updated!</h1>
                 <p class="text">Join 60.000+ product managers receiving monthly updates on:</p>
-                <ul class="list-unstyled text">
-                    <li><img src="images/icon-list.svg" alt="Icon List"> Product discovery and building what matters</li>
-                    <li><img src="images/icon-list.svg" alt="Icon List"> Measuring to ensure updates are a success</li>
-                    <li><img src="images/icon-list.svg" alt="Icon List"> And much more!</li>
+                <ul class="text">
+                    <li>Product discovery and building what matters</li>
+                    <li>Measuring to ensure updates are a success</li>
+                    <li>And much more!</li>
                 </ul>
-                <form action="" class="form-control d-flex flex-column">
+                <form id="form" action="" class="form-control d-flex flex-column">
                     <p class="text">Email address</p>
-                    <input type="email" name="" id="" placeholder="ash@loremcompany.com">
-                    <button class="btn btn-primary btn-block">Subscribe to monthly newsletter</button>
+                    <input type="email" name="" id="input_email" placeholder="ash@loremcompany.com">
+                    <button id="btn_subscribe" class="btn_subscribe btn btn-primary btn-block">Subscribe to monthly newsletter</button>
                 </form>
             </div>
-            <img id="ilustration_desktop" src="images/illustration-sign-up-desktop.svg" alt="Ilustration Sign Up Desktop" class="img-fluid">
-        </div>
+            <img id="ilustration_desktop" src="images/illustration-sign-up-desktop.svg" alt="Ilustration Sign Up Desktop" class="img-fluid"> -->
+        </div>     
     </div>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
 </body>
 </html>
+

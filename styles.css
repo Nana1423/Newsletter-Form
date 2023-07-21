@@ -1,5 +1,11 @@
+/* Desktop Design */
+
 body {
     background-color: hsl(231, 7%, 20%) !important;
+}
+
+#main_container{
+    height: 100vh;
 }
 
 #sub_container {
@@ -14,9 +20,18 @@ body {
     padding: 50px;
 }
 
+h1 {
+    font-weight: bolder !important;
+}
+
 .text {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    align-items: left;
+    list-style-image: url('images/icon-list.svg');
 }
 
 li {
@@ -43,9 +58,107 @@ form input{
     font-family: 'Roboto', sans-serif;
 }
 
-form button {
+.btn_subscribe {
     background-color: hsl(231, 29%, 20%) !important;
     font-size: 16px !important;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    height: 2.5rem;
+    width: 100% !important;
+}
+
+#ilustration_mobile {
+    visibility: hidden;
+    display: none !important;
+}
+
+/* Desktop Success */
+
+.container_success {
+    flex-direction: column;
+    width: 40% !important;
+    padding: 40px !important;
+}
+
+.h1_success{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#icon_success {
+    height: 50px;
+    width: 50px;
+}
+
+/* Mobile Design */
+
+@media (max-width: 367px) {
+
+    #ilustration_mobile {
+        top: 0;
+        height: 40%;
+        width: 100%;
+        visibility: visible;
+        display: block !important;
+    }
+
+    body {
+        background-color: white !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main_container {
+        padding: 20px;
+        padding-right: 40px;
+        height: 60%;
+    }
+
+    #sub_container {
+        background-color: white;
+        padding: 0px;
+        width: 100%;
+        line-height: 20px;
+        justify-content: center;
+    }
+
+    #text_container {
+        padding: 0px;
+    }
+
+    h1 {
+        align-items: left;
+        padding: 5px;
+    }
+
+    ul {
+        list-style-image: url('images/icon-list.svg');
+        padding-left: 30px !important;
+    }
+
+    ul li {
+        padding-left: 10px;
+        padding-bottom: 10px;
+        line-height: 20px;
+    }
+
+    #form {
+        padding: 0px !important;
+    }
+
+    #input_email {
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 100% !important;
+    }
+
+    .btn_subscribe {
+        height: 2.5rem;
+        width: 100% !important;
+    }
+
+    #ilustration_desktop {
+        display: none;
+    }
 }
