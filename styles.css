@@ -8,11 +8,10 @@ body {
     height: 100vh;
 }
 
-#sub_container {
+.sub_container_subscribe {
     background-color: white;
     padding: 20px;
     border-radius: 3%;
-    width: 70%;
     line-height: 30px;
 }
 
@@ -67,6 +66,17 @@ form input{
     width: 100% !important;
 }
 
+.input_empty{
+    background-color: rgb(215, 175, 175);
+    border: solid red 1px;
+    
+}
+
+.input_empty::placeholder {
+    color: rgb(84, 1, 1); 
+    opacity: 0.5;
+  }
+
 #ilustration_mobile {
     visibility: hidden;
     display: none !important;
@@ -75,19 +85,37 @@ form input{
 /* Desktop Success */
 
 .container_success {
+    background-color: white;
+    width: 400px !important;
+    padding: 20px;
+    border-radius: 3%;
+    width: 70%;
+    line-height: 30px;
     flex-direction: column;
-    width: 40% !important;
+    height: auto;
     padding: 40px !important;
 }
 
 .h1_success{
+    font-size: 1.5rem;
     padding-top: 20px;
     padding-bottom: 10px;
+}
+
+.text_success {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 #icon_success {
     height: 50px;
     width: 50px;
+}
+
+@media (max-width: 367px) {
+    .container_success{
+        padding: 10px !important;
+    }
 }
 
 /* Mobile Design */
