@@ -2,6 +2,10 @@
 The Email Submission Form is a simple web application that allows users to submit their email addresses through a user-friendly form. The main goal of this project is to collect email addresses for a newsletter subscription, contact list, or any other use case where user emails are required.
 
 ## Demo
+### Desktop View
+<img src="images/desktop1.jpg" alt="Descripción de la imagen" height="300"> <img src="images/desktop2.jpg" alt="Descripción de la imagen" height="300">
+### Mobile View
+<img src="images/mobile1.jpg" alt="Descripción de la imagen" height="300"> <img src="images/mobile2.jpg" alt="Descripción de la imagen" height="300">
 
 ## Features
 - Users can add their email and submit the form.
